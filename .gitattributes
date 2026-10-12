@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.pt binary
+*.npz binary
+*.png binary
+# Keep the original evidence byte-identical, including on Windows checkouts.
+artifacts/kaggle_run/** -text

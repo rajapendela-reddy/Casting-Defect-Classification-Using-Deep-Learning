@@ -1,0 +1,7 @@
+# Tested local runtime. Original Kaggle CUDA versions are preserved in the artifacts.
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.3.5
+matplotlib==3.10.8
+Pillow==12.3.0
+PyYAML==6.0.3

@@ -1,0 +1,25 @@
+data:
+  batch_size: 32
+  image_size: 224
+  num_workers: 2
+  root: /kaggle/input/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product/casting_data/casting_data
+  seed: 42
+  val_split: 0.15
+eval:
+  cost_false_negative: 10.0
+  cost_false_positive: 1.0
+  threshold: 0.5
+model:
+  arch: resnet18
+  dropout: 0.2
+  freeze_backbone: false
+  pretrained: true
+paths:
+  output_dir: /kaggle/working/casting_outputs
+train:
+  early_stopping_patience: 6
+  epochs: 25
+  lr: 0.001
+  monitor: f1_defect
+  use_class_weights: true
+  weight_decay: 0.0001

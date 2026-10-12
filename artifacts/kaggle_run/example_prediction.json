@@ -1,0 +1,6 @@
+{
+  "image": "/kaggle/input/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product/casting_data/casting_data/test/def_front/cast_def_0_1059.jpeg",
+  "prediction": "defect",
+  "p_defect": 0.9999817609786987,
+  "threshold": 0.014
+}

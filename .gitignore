@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Downloads and newly generated outputs; original Kaggle evidence remains tracked
+data/casting_data/
+data/downloads/
+artifacts/runs/
+predictions/
+*.zip
+*.log
+
+# Local settings and credentials
+.env
+.env.*
+kaggle.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

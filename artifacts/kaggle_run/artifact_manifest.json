@@ -1,0 +1,145 @@
+{
+  "origin": "User-provided casting_outputs.zip; retained numerical/model artifacts preserved.",
+  "files": [
+    {
+      "path": "test_predictions.npz",
+      "bytes": 2668,
+      "sha256": "51d2652aef0eecaf8e5687f1c64f22dabcb0fadf58ec3b1be1e699c32fd142a2"
+    },
+    {
+      "path": "confusion_matrices.png",
+      "bytes": 30666,
+      "sha256": "69b09ad3a210c0f05eb0843696da59a2063224694e4bb14b7a46901680449692"
+    },
+    {
+      "path": "threshold_selection.json",
+      "bytes": 201,
+      "sha256": "a74d2ba29bc23aa9f58dc144aa63f0052a3ca3ae7635e70318b9c0a1968b352c"
+    },
+    {
+      "path": "config.yaml",
+      "bytes": 551,
+      "sha256": "1dcf8fa0d69887e0a5fe0ac65638c596781a497cfce3aaecdbe2e040fe7ffddb"
+    },
+    {
+      "path": "validation_predictions_resnet18.npz",
+      "bytes": 2874,
+      "sha256": "5f624016d722540bf199976389e279d548239888831687048beca97de54c2d30"
+    },
+    {
+      "path": "selected_model.pt",
+      "bytes": 1575429,
+      "sha256": "8cdc5d09188c9d181b7c4190fa06ab107496ec781c299e92157339b04ecc20d5"
+    },
+    {
+      "path": "gradcam_errors.png",
+      "bytes": 1263644,
+      "sha256": "e4cf189ced4ff863c8a58764f3439ff6ae4994b815f3cbbd8cff7b431337d785"
+    },
+    {
+      "path": "convergence.png",
+      "bytes": 82428,
+      "sha256": "709e562caa5b7c9f0067cf12a8ced6145e6dc3bba619c08f9173ef2c8cc950bd"
+    },
+    {
+      "path": "sample_images.png",
+      "bytes": 670682,
+      "sha256": "70a87266bdfd1a4c1a0c0c4dcf76d9c47cf11e480cf47bfa532a476d794672f1"
+    },
+    {
+      "path": "best_resnet18.pt",
+      "bytes": 44791115,
+      "sha256": "82f597064babdfef3782ead13dac30344064b0fe640627c5e098712d05d14a06"
+    },
+    {
+      "path": "evaluation_report.json",
+      "bytes": 1036,
+      "sha256": "fd0ced17b9af9dd09e058466d5c7ea11f3df3e13c1f583be7073f23404af175a"
+    },
+    {
+      "path": "run_metadata.json",
+      "bytes": 719,
+      "sha256": "842fbf70e4a3174456b6a6c634c23d32d3423740973d2fa503d61b321f115dac"
+    },
+    {
+      "path": "test_predictions.csv",
+      "bytes": 46492,
+      "sha256": "524678e9b512b9409d4a4c1d639d18712887fee2fee75c55d48d082f9f8c1165"
+    },
+    {
+      "path": "example_prediction.json",
+      "bytes": 245,
+      "sha256": "f89f3edd0a8b1d0d3d0c0fdc8857af92241934f41e3f35e1a106ac147bed793c"
+    },
+    {
+      "path": "validation_threshold_sweep.png",
+      "bytes": 46912,
+      "sha256": "777021f1d764a676ac3ea70db3b6b072658200823fc46c71deaf4c88d87a2f6e"
+    },
+    {
+      "path": "gradcam_correct.png",
+      "bytes": 1388123,
+      "sha256": "4a5f4cb081c9dcd4a0731109ee5226c8634972b79afa9d40240c1111ba76d152"
+    },
+    {
+      "path": "validation_predictions_simple_cnn.npz",
+      "bytes": 3953,
+      "sha256": "a8d9b40bfabcc0309e8d8d17db6bd3e418e2ebf9a1b3de5230bf13bbea87599d"
+    },
+    {
+      "path": "training_simple_cnn.json",
+      "bytes": 10007,
+      "sha256": "a014e4be261a896857ab2b81b4fca969fa3914e34697f4f86d1b9847afc93b64"
+    },
+    {
+      "path": "training_resnet18.json",
+      "bytes": 6209,
+      "sha256": "aec2296dfda9dc2d6f0e178cd02559049500fca854480639a952fd536159a244"
+    },
+    {
+      "path": "dataset_summary.json",
+      "bytes": 216,
+      "sha256": "a61028c26fd0b8033be6446f1407eae04fbe6a97f8cae8ea3b6f39f9db5e70c7"
+    },
+    {
+      "path": "split_manifest.csv",
+      "bytes": 334265,
+      "sha256": "8587f3ebcccdc031505c1895008a50fd10c727a9c3ba63719a7a2acef1ccd92d"
+    },
+    {
+      "path": "best_simple_cnn.pt",
+      "bytes": 1575337,
+      "sha256": "744c669370d812df7da2c5ce9f0c88d4d9e2182c1c497f01f169a74cd0e6ad2f"
+    },
+    {
+      "path": "source/gradcam.py",
+      "bytes": 3794,
+      "sha256": "443139276912f8ce7386805efb73ef5b6bd1566be6cccb648836c8d2f0383db9"
+    },
+    {
+      "path": "source/threshold.py",
+      "bytes": 3105,
+      "sha256": "7556c65f86ca1b282b5488178442a8d4a327e35f0ca4759e95d8db8787af26fe"
+    },
+    {
+      "path": "source/data.py",
+      "bytes": 5991,
+      "sha256": "e01c12f31bd499f5682500e00560ae1b906f35c9127d72d1ceca495972075e30"
+    },
+    {
+      "path": "source/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/model.py",
+      "bytes": 3283,
+      "sha256": "76968c2469540fa2c807e0e51525e2d10dedc8838b927751f0f8e7b60e842c02"
+    },
+    {
+      "path": "source/metrics.py",
+      "bytes": 3566,
+      "sha256": "86025723e11924793d8b71aae62b575cc6707450fee5f9a85258e1b6aab71c67"
+    }
+  ]
+}

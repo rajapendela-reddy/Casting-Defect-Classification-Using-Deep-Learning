@@ -1,0 +1,17 @@
+{
+  "train": {
+    "total": 5638,
+    "ok": 2444,
+    "defect": 3194
+  },
+  "validation": {
+    "total": 995,
+    "ok": 431,
+    "defect": 564
+  },
+  "test": {
+    "total": 715,
+    "ok": 262,
+    "defect": 453
+  }
+}

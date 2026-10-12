@@ -1,0 +1,47 @@
+{
+  "selected_arch": "simple_cnn",
+  "selection_metric": "validation_f1_defect",
+  "best_epoch": 19,
+  "threshold_selection": {
+    "threshold": 0.014,
+    "argmin_threshold": 0.015,
+    "plateau": [
+      0.012,
+      0.016
+    ],
+    "min_cost": 8.0,
+    "se": 3.597863687742754,
+    "tolerance": 11.597863687742754,
+    "plateau_width": 0.004
+  },
+  "test_default": {
+    "accuracy": 0.9958041958041958,
+    "precision_defect": 1.0,
+    "recall_defect": 0.9933774834437086,
+    "specificity_ok": 1.0,
+    "f1_defect": 0.9966777408637874,
+    "roc_auc": 1.0,
+    "tn": 262,
+    "fp": 0,
+    "fn": 3,
+    "tp": 450,
+    "threshold": 0.5
+  },
+  "test_operating": {
+    "accuracy": 0.986013986013986,
+    "precision_defect": 0.978401727861771,
+    "recall_defect": 1.0,
+    "specificity_ok": 0.9618320610687023,
+    "f1_defect": 0.9890829694323143,
+    "roc_auc": 1.0,
+    "tn": 252,
+    "fp": 10,
+    "fn": 0,
+    "tp": 453,
+    "threshold": 0.014
+  },
+  "cost_assumptions": {
+    "false_negative": 10.0,
+    "false_positive": 1.0
+  }
+}

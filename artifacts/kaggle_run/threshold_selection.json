@@ -1,0 +1,12 @@
+{
+  "threshold": 0.014,
+  "argmin_threshold": 0.015,
+  "plateau": [
+    0.012,
+    0.016
+  ],
+  "min_cost": 8.0,
+  "se": 3.597863687742754,
+  "tolerance": 11.597863687742754,
+  "plateau_width": 0.004
+}
