@@ -204,8 +204,4 @@ The source images were not supplied with the output archive. Consequently, origi
 - Grad-CAM does not provide verified defect localization.
 - No defect-type classification, deployment, automated monitoring, or production financial benefit is claimed.
 
-## Attribution and uploading
 
-Adapted from [tony-joseph-ai/casting-defect-detection](https://github.com/tony-joseph-ai/casting-defect-detection).
-
-Recommended repository name: **casting-defect-classification**. Use **Git or GitHub Desktop** for the complete folder, because the included ResNet18 checkpoint is larger than GitHub's browser-upload limit. See [docs/GITHUB_UPLOAD.md](docs/GITHUB_UPLOAD.md) for detailed instructions and the official file-size guidance.
